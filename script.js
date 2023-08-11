@@ -21,19 +21,19 @@
         return {
           width: "100%",
           color: "#26de81",
-          label: "Strong",
+          label: "Fuerte",
         };
       } else if (score >= MEDIUM_THRESHOLD) {
         return {
           width: "66%",
           color: "#fd9644",
-          label: "Medium",
+          label: "Medio",
         };
       } else {
         return {
           width: "33%",
           color: "#fc5c65",
-          label: "Weak",
+          label: "Débil",
         };
       }
     };
