@@ -16,15 +16,6 @@ body {
   border-radius: 12px;
 }
 
-form label {
-  display: block;
-  color: #4b7bec;
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.05rem;
-}
 
 form input {
   width: 100%;
@@ -45,5 +36,5 @@ form input {
   width: 0;
   height: 10px;
   display: block;
-  margin-top: 10px;
+  margin-top: 20px;
 }
