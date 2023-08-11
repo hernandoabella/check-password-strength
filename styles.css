@@ -34,13 +34,7 @@ form input {
   font-size: 1.3rem;
 }
 
-form input[type="submit"]:hover,
-form input[type="submit"]:focus {
-  background: #3867d6;
-}
-
 .password-meter__bar {
-  width: 33.333%;
   height: 1rem;
   background: #eee;
   margin-bottom: 1rem;
@@ -49,17 +43,7 @@ form input[type="submit"]:focus {
 
 .password-meter__bar__inner {
   width: 0;
-  height: 100%;
+  height: 10px;
   display: block;
-  position: absolute;
-  top: 0;
-}
-
-.password-meter__label {
-  color: #666;
-  font-size: 1.2rem;
-}
-
-.password-meter__label span {
-  font-weight: bold;
+  margin-top: 10px;
 }
