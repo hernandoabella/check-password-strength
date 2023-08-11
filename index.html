@@ -9,21 +9,30 @@
   </head>
   <body>
     <div class="container">
-      
+      <div class="input-group">
+        <input
+          required=""
+          type="password"
+          name="password"
+          autocomplete="off"
+          class="input"
+        />
+        <label class="user-label">First Name</label>
+      </div>
+
       <input
         id="password"
         class="js--password"
         type="password"
         placeholder="Enter your password here."
       />
-      
-        <div class="password-meter__bar">
-          <div class="password-meter__bar__inner js--password-bar"></div>
-        </div>
-        <p class="password-meter__label">
-          Seguridad de la contraseña: <span class="js--password-text"></span>
-        </p>
-      
+
+      <div class="password-meter__bar">
+        <div class="password-meter__bar__inner js--password-bar"></div>
+      </div>
+      <p class="password-meter__label">
+        Seguridad de la contraseña: <span class="js--password-text"></span>
+      </p>
     </div>
 
     <script src="./script.js"></script>
