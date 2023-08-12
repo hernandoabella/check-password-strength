@@ -17,11 +17,11 @@ body {
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-form input {
-  width: 100%;
-  display: block;
-  border: 0;
+input {
   font-size: 1.3rem;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 10px;
 }
 
 .password-meter__bar__inner {
