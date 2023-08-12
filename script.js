@@ -42,15 +42,24 @@
       const passwordInput = document.querySelector(".js--password");
       const progressBar = document.querySelector(".js--password-bar");
       const statusText = document.querySelector(".js--password-text");
-  
+    
       passwordInput.addEventListener("input", () => {
-        const password = passwordInput.value;
+        const password = passwordInput.value.trim(); // Elimina espacios en blanco al principio y al final
+    
+        if (password === "") {
+          progressBar.style.width = "0";
+          progressBar.style.background = "transparent";
+          statusText.innerText = "💀";
+          return;
+        }
+    
         const data = scoreToData(evaluatePassword(password));
-  
+    
         progressBar.style.width = data.width;
         progressBar.style.background = data.color;
         statusText.innerText = data.label;
       });
     });
+    
   })();
   
