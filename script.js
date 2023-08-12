@@ -49,7 +49,7 @@
         if (password === "") {
           progressBar.style.width = "0";
           progressBar.style.background = "transparent";
-          statusText.innerText = "💀";
+          statusText.innerText = "🔐";
           return;
         }
     
