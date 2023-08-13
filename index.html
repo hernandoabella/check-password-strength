@@ -27,7 +27,10 @@
     <div class="container">
       <p>Tu contraseña es:</p>
       <div class="js--password-text">🔐</div>
-      <div class="flex password-container">
+      <div class="password-meter__bar">
+        <div class="password-meter__bar__inner js--password-bar"></div>
+      </div>
+      <div class="password-container">
         <input
           id="password"
           class="js--password"
@@ -36,10 +39,6 @@
         /><button id="togglePassword" class="toggle-password">
           <i class="far fa-eye"></i>
         </button>
-      </div>
-
-      <div class="password-meter__bar">
-        <div class="password-meter__bar__inner js--password-bar"></div>
       </div>
     </div>
 
