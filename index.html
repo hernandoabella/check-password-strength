@@ -6,20 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Verificar fuerza de contraseña 🔐</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-light.css"
+    />
   </head>
   <body>
     <div class="container">
       <p>Tu contraseña es:</p>
       <div class="js--password-text">🔐</div>
-      <span id="togglePassword" class="toggle-password">
-        <i class="far fa-eye"></i>
-      </span>
-      <input
-        id="password"
-        class="js--password"
-        type="password"
-        placeholder="Ingresa tu contraseña aquí"
-      />
+      <div class="flex password-container">
+        <input
+          id="password"
+          class="js--password"
+          type="password"
+          placeholder="Ingresa tu contraseña"
+        /><button id="togglePassword" class="toggle-password">
+          <i class="far fa-eye"></i>
+        </button>
+      </div>
 
       <div class="password-meter__bar">
         <div class="password-meter__bar__inner js--password-bar"></div>
