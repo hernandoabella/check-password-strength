@@ -45,6 +45,11 @@ body {
   border-radius: 12px;
 }
 
+button {
+  background: #333;
+  color: #fafafa;
+}
+
 input {
   padding: 10px;
   border: 1px solid #333;
@@ -64,8 +69,8 @@ input {
   width: 16.67px;
 }
 
-p {
-  font-size: 0.9em;
+.strong__text {
+  font-size: 0.8em;
 }
 
 .flex {
