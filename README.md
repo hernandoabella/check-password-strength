@@ -1,1 +1,1 @@
-# verificar-fuerza-de-contrasena
+# check-password-strength
